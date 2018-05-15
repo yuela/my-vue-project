@@ -1,0 +1,8 @@
+
+ul{
+  margin:0;
+}
+@mixin a{
+  color: $color;
+  &:link,&:focus,&:hover,&:visited,&:active{color: $color}
+}
